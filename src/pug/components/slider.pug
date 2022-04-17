@@ -1,5 +1,34 @@
+include ../mixins/slider-item.pug
 .slider__container 
     h2 Our pieces inside your home
     .slider__text Get inspired by our products in real-life. Tag us and be featured!
-    .slider__row 
-        
+.slider
+    .swiper
+        .swiper-wrapper
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/slider-one.png"
+                })
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/hall.png"
+                })
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/bbedd.png"
+                })
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/slider-one.png"
+                })
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/hall.png"
+                })
+            .swiper-slide
+                +slider-item({
+                    img: "./assets/imgs/bbedd.png"
+                })                                                
+        .swiper-pagination
+        .swiper-button-prev
+        .swiper-button-next
