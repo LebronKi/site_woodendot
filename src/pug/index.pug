@@ -1,6 +1,7 @@
 doctype html
 html(lang="en")
     head
+        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
@@ -10,6 +11,9 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/css/app.css")
     body
         include ./components/header
-        main.main
+        include ./components/main
+        include ./components/flex
+        include ./components/menu
+        include ./components/slider
         script(src="./assets/js/vendors.min.js")
         script(src="./assets/js/app.js")

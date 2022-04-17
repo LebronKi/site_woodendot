@@ -1,0 +1,40 @@
+.main{
+    background: url('../imgs/main.png') no-repeat;
+    background-size: cover;
+}
+.main__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+h1.main__title{
+font-family: Poppins;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+color: #FFFFFF;
+max-width: 807px;
+padding: 357px 0 0 0px;
+margin: 8px auto;
+}
+.main__btn{
+        max-width: 204px;
+        margin: 31px auto 360px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        border: 1px solid #fff;
+        padding: 8px 0;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+}
+.main__text{
+    max-width: 324px;
+    padding: 10px 0 14px 0;
+    color: #fff;
+    background: #000;
+    margin:  0 0 0 -150px;
+}

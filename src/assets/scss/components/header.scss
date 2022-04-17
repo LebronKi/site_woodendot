@@ -1,1 +1,30 @@
-.header {}
+.header{
+    background: #fff;
+    margin: 0 0 36px 0;
+}
+.header.container{
+    background: #fff; 
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    li{
+        padding: 24px 0 22px 0;
+        margin: 0 20px 0px 0;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px; 
+    }
+}
+.header__logo{
+    margin:0 0 0 328px;
+    padding: 16px 0 17px;
+}

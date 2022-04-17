@@ -1,0 +1,9 @@
+.flex{
+    margin: 155px 0 0 0;
+}
+.flex__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
