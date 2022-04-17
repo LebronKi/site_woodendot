@@ -1,0 +1,41 @@
+.cards__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.cards__row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cards-item{
+    max-width: 360px;
+    text-align: center;
+    flex: 1 0 25%;
+}
+.cards-item__img{
+       margin: 54px 0 24px 0;
+}
+
+.cards-item__title{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 12px 0;
+}
+.cards-item__text{
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+padding: 0 0 25px 0;
+max-width: 310px;
+margin: 0 auto;
+}
+.cards-item:nth-child(2),
+.cards-item:nth-child(4){
+    background: #F8F8F8;
+}
